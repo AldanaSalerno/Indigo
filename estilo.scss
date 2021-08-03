@@ -1,0 +1,124 @@
+@import "body";
+@import "galeria";
+@import "contacto";
+@import "footer";
+
+
+* {
+    margin: 0;
+}
+
+.barra {
+  border-bottom: 2px solid white;
+}
+
+
+
+.flexsearch {
+  
+  .input10 {
+    border-radius: 30px;
+    background-color: transparent;
+    border: 1px solid white;
+    margin-top: 25px;
+    outline: none;
+    width: 500px;
+
+  }
+    ul {
+      display: inline-block;
+      li {
+        list-style: none;
+        i {
+          color: white;
+        }
+      }
+    }
+    .input11 {
+      border-radius: 30px;
+      background-color: transparent;
+      border: 1px solid white;
+      margin-top: 25px;
+      outline: none;
+      width: 500px;
+  
+    }
+      ul {
+        display: inline-block;
+        li {
+          list-style: none;
+          i {
+            color: white;
+          }
+        }
+      }
+}
+
+
+
+
+  @media (min-width: 320px) and (max-width: 480px) {
+    .fotoproducto {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+      margin-left: 10px;
+      img {
+        width: 100px;
+        height: 100px;
+      }
+      a{
+        font-size: 30px;
+        margin-left: 60px;
+      }
+    }
+    .flexsearch {
+     .input10 {
+       width: 180px;
+     }
+     .input11 {
+       width: 180px;
+    
+     }
+    }
+    body{ background-size: cover;
+    display: block;}
+    .info {
+      display: block;
+      font-size: 20px;
+      margin-left: 60px;
+      .info2 {
+        margin: 30px;
+        font-size: 10px;
+        ul {
+            list-style: none;
+            i {
+                font-size: 30px;
+               margin-left:30px;
+            }
+        }
+    }
+    }
+    .sobre {
+      display: block;
+      width: 350px;
+      height: 650px;
+      h3 {
+        margin-right: 90px;
+      }
+    }
+    .footer h4 {
+     font-size: 15px;
+    }
+    .footer ul {
+      font-size: 15px;
+    }
+  }
+    .contactanos {
+        display: block;
+        width: 80%;
+    }
+   button {
+       font-size: 12px;
+   }
+
