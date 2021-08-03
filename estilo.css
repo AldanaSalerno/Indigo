@@ -99,7 +99,7 @@ body .caja2 .caja2__subtitulo {
 }
 
 .sobre h3 {
-  color: #fff;
+  color: black;
   font-size: 30px;
   font-family: 'stint ultra condensed', cursive;
   margin-left: 90px;
@@ -112,7 +112,7 @@ body .caja2 .caja2__subtitulo {
 }
 
 .sobre p {
-  color: #fff;
+  color: black;
   font-size: 25px;
   margin-left: 30px;
   font-family: 'stint ultra condensed', cursive;
@@ -223,6 +223,62 @@ body .caja2 .caja2__subtitulo {
   margin: 30px;
 }
 
+.cajatexto1 {
+  margin: 40px;
+  font-size: 25px;
+  font-family: 'stint ultra condensed', cursive;
+}
+
+.cajatexto1 h2 {
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.cajatexto1 h3 {
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.cajatexto2 {
+  margin: 40px;
+  font-size: 25px;
+  font-family: 'stint ultra condensed', cursive;
+}
+
+.cajatexto2 h2 {
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.cajatexto2 .p {
+  text-align: center;
+}
+
+.cajatexto2 .p img {
+  padding: 20px;
+}
+
+.cajatexto2 h3 {
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.cajatexto3 {
+  margin: 40px;
+  font-size: 25px;
+  font-family: 'stint ultra condensed', cursive;
+}
+
+.cajatexto3 h2 {
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
 * {
   margin: 0;
 }
@@ -273,7 +329,7 @@ body .caja2 .caja2__subtitulo {
   color: white;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 360px) and (max-width: 480px) {
   .fotoproducto {
     display: -ms-grid;
     display: grid;

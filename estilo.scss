@@ -2,6 +2,7 @@
 @import "galeria";
 @import "contacto";
 @import "footer";
+@import "informacion";
 
 
 * {
@@ -57,7 +58,7 @@
 
 
 
-  @media (min-width: 320px) and (max-width: 480px) {
+  @media (min-width: 360px) and (max-width: 480px) {
     .fotoproducto {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -78,7 +79,7 @@
      }
      .input11 {
        width: 180px;
-    
+  
      }
     }
     body{ background-size: cover;
@@ -121,4 +122,3 @@
    button {
        font-size: 12px;
    }
-

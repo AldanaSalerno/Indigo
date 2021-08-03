@@ -1,0 +1,36 @@
+@mixin cajatexto {
+    margin: 40px;
+    font-size: 25px;
+    font-family: 'stint ultra condensed', cursive;
+    h2 {
+        text-align: center;
+        font-weight: bold;
+        padding-bottom: 10px;
+    }
+}
+@mixin hache3 {
+    h3 {
+        font-weight: bold;
+        text-align: center;
+        padding-top: 20px;
+    }
+}
+
+
+.cajatexto1 {
+ @include cajatexto;
+@include hache3;
+}
+.cajatexto2 {
+    @include cajatexto;
+    .p {
+      text-align: center;
+    img {
+        padding: 20px;
+    }
+    }
+    @include hache3;
+}
+.cajatexto3 {
+    @include cajatexto;
+}
