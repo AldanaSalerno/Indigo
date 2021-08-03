@@ -92,6 +92,10 @@ body .caja2 .caja2__subtitulo {
   border-radius: 20px;
 }
 
+.fotoproducto img:hover {
+  transform: scale(1.2,1.2);
+}
+
 .sobre {
   margin: 0 auto;
   width: 800px;
@@ -219,8 +223,14 @@ body .caja2 .caja2__subtitulo {
   color: #fff;
 }
 
-.footer i {
+.footer li {
   margin: 30px;
+}
+
+.footer li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 30px;
 }
 
 .cajatexto1 {
