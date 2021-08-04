@@ -1,6 +1,6 @@
 
 body {
-    background-image:linear-gradient(326deg, #861657 0%, #ffa69e 74%); display: grid;
+    background-color:#ffa69e; display: grid;
     h1 {
         color: #fff;
         margin: 30px;
@@ -14,10 +14,8 @@ body {
         }
     }
     }
-
     .barra {
-        font-size: 20px;
-        margin: 20px;
+        background-color: rgb(102, 98, 98);
     }
 
     .info {
@@ -25,29 +23,54 @@ body {
         color: #fff;
         display: flex;
         justify-content: center;
-        
+        margin: 40px;
+        margin-right: 300px;
         .info1 {
-            margin: 30px;
+            margin: 40px;
+            margin-left: 300px;
             font-size: 15px;
-            ul {
-                list-style: none;
-                i {
-                    font-size: 20px;
-                   margin-left:40px;
-                }
+            p {
+                font-size: 18px;
             }
-        }
-        .info2 {
-            margin: 30px;
-            font-size: 15px;
             ul {
                 list-style: none;
                 i {
                     font-size: 30px;
-                   margin-left:80px;
+                   margin-left:100px;
                 }
             }
         }
-    }
+        .info4 {
+            margin: 40px;
+            margin-left: 400px;
+            font-size: 15px;
+            p {
+                font-size: 18px;
+            }
+            ul {
+                list-style: none;
+                i {
+                    font-size: 30px;
+                    margin-left:60px;
+                }
+             }
+        }
+       .info2 {
+           margin: 30px;
+             margin-left: 400px;
+             font-size: 15px;
+             p {
+                 font-size: 18px;
+             }
+            ul {
+                list-style: none;
+                i {
+                    font-size: 30px;
+                    margin-left:40px;
+                }
+             }
+            }
+        }
+    
 
    
