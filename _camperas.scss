@@ -27,29 +27,8 @@
 //     }
     
 
-.camperas {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-
-     a {
-          color: #fff;
-          font-family: 'stint ultra condensed', cursive;  
-          font-size: 30px;
-          text-decoration: none;
-          text-transform: uppercase;
-          padding: 0;
-          margin: 0;
-      }
-      img {
-          width:250px;
-          height: 250px;
-          margin: 10px;
-          border-radius: 20px;
-          &:hover {
-              transform: scale(1.2,1.2);
-
-            }
-      }
+.carrito {
+    
       h3 {
         color: #fff;
         font-size: 15px;

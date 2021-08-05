@@ -2,10 +2,14 @@
 .contactanos {
     color: #fff;
     box-shadow: 0 0 3px 3px #fff;
-    width: 200px;
-    margin: auto;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
     text-align: center;
     border-radius: 40px;
+
     h3 {
         color: #fff;
         font-family: 'stint ultra condensed',  cursive;
