@@ -1,0 +1,29 @@
+.camperas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    margin-left: 200px;
+       a {
+            color: #fff;
+            font-family: 'stint ultra condensed', cursive;  
+            font-size: 30px;
+           margin-right: 600px;
+           margin-top: 100px;
+           text-decoration: none;
+           text-transform: uppercase;
+           &:hover {
+             color: rgb(160, 116, 116);
+          
+           }
+        }
+        img {
+            width:250px;
+            height: 250px;
+            margin: 10px;
+            border-radius: 20px;
+            &:hover {
+              transform: scale(1.2,1.2);
+            }
+        }
+    }
+    

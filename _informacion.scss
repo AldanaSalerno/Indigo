@@ -1,20 +1,21 @@
 @mixin cajatexto {
-    width: 600px;
+    width: 800px;
     margin: 0 auto;
     font-size: 25px;
     font-family: 'stint ultra condensed', cursive;
+   color: #fff;
+
     h2 {
         text-align: center;
-        font-weight: bold;
         padding-bottom: 10px;
-        
+        color: #fff;
     }
 }
 @mixin hache3 {
     h3 {
-        font-weight: bold;
         text-align: center;
         padding-top: 20px;
+        color: #fff
     }
 }
 
@@ -35,4 +36,65 @@
 }
 .cajatexto3 {
     @include cajatexto;
+}
+
+
+
+.information {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin: 20px;
+    margin-left: 30px;
+    .info1 {
+        margin: 30px;
+        font-size: 15px;
+        p {
+            font-size: 18px;
+        }
+        ul {
+            list-style: none;
+            i {
+                font-size: 30px;
+               margin-left:100px;
+            }
+        }
+    }
+    .info4 {
+        margin: 30px;
+        font-size: 15px;
+        margin-left: 30px;
+        p {
+            font-size: 18px;
+        }
+        ul {
+            list-style: none;
+            i {
+                font-size: 30px;
+                margin-left:60px;
+            }
+         }
+    }
+   .info2 {
+       margin: 30px;
+         font-size: 15px;
+         margin-left: 30px;
+         p {
+             font-size: 18px;
+         }
+        ul {
+            list-style: none;
+            i {
+                font-size: 30px;
+                margin-left:40px;
+            }
+         }
+        }
+    }
+
+
+.cajafondo {
+    background-color: rgb(180, 133, 133);
 }

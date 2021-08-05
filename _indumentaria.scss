@@ -1,0 +1,34 @@
+.seccionmujeres{
+    h2 {
+        color: #fff;
+        font-family: 'stint ultra condensed', cursive; 
+        font-size: 30px;
+        margin-left: 30px;
+    }
+}
+
+.fotoproducto {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 1rem;
+margin: 30px;
+   a {
+        color: #fff;
+        font-family: 'stint ultra condensed', cursive;  
+        font-size: 30px;
+        display: flex;
+        margin-left: 60px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    img {
+        width:250px;
+        height: 250px;
+        margin: 10px;
+        border-radius: 20px;
+        &:hover {
+            transform: scale(1.2,1.2);
+          }
+    }
+}
+

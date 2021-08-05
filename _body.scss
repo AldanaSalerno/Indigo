@@ -1,9 +1,10 @@
 
 body {
-    background-color:#ffa69e; display: grid;
+    background-color: rgb(180, 133, 133);
+     display: grid;
     h1 {
         color: #fff;
-        margin: 30px;
+        margin: 10px;
         font-size: 50px;
         font-family: 'stint ultra condensed', cursive;  
        
@@ -15,62 +16,5 @@ body {
     }
     }
     .barra {
-        background-color: rgb(102, 98, 98);
+        background-color: rgb(138, 100, 100);
     }
-
-    .info {
-        font-family: Arial, Helvetica, sans-serif;
-        color: #fff;
-        display: flex;
-        justify-content: center;
-        margin: 40px;
-        margin-right: 300px;
-        .info1 {
-            margin: 40px;
-            margin-left: 300px;
-            font-size: 15px;
-            p {
-                font-size: 18px;
-            }
-            ul {
-                list-style: none;
-                i {
-                    font-size: 30px;
-                   margin-left:100px;
-                }
-            }
-        }
-        .info4 {
-            margin: 40px;
-            margin-left: 400px;
-            font-size: 15px;
-            p {
-                font-size: 18px;
-            }
-            ul {
-                list-style: none;
-                i {
-                    font-size: 30px;
-                    margin-left:60px;
-                }
-             }
-        }
-       .info2 {
-           margin: 30px;
-             margin-left: 400px;
-             font-size: 15px;
-             p {
-                 font-size: 18px;
-             }
-            ul {
-                list-style: none;
-                i {
-                    font-size: 30px;
-                    margin-left:40px;
-                }
-             }
-            }
-        }
-    
-
-   
