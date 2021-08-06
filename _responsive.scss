@@ -1,57 +1,121 @@
 
 
-
-
 @media (min-width: 360px) and (max-width: 480px) {
     .fotoproducto {
       display: grid;
       grid-template-columns: 1fr 1fr;
       margin: 0 auto;
+      margin-left: 50px;
       img {
         width: 100px;
         height: 100px;
-      }
+         }
       a{
         font-size: 20px;
-        margin-left: 20px;
-      }
+        margin-left: 6px;
+         }
       h3 {
           font-size: 10px;
           margin-left: 10px;
-      }
+          }
       ul {
           margin-left: 30px;
-      }
-    }
+          }
+        }
+        .fotoproducto1 {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          margin: 0 auto;
+          margin-left: 5px;
+          img {
+            width: 100px;
+            height: 100px;
+             }
+             .a {
+              font-size: 20px;
+            margin-left: 6px;
+            margin-left: 30px;
+             }
+        
+          h3 {
+              font-size: 10px;
+              margin-left: 10px;
+              }
+            }
     .flexsearch {
       display:none;
-     .input10 {
-       width: 100px;
-     }
-    }
-    body{ background-size: cover;
-    display: block;}
+                }
+    body{
+       background-size: cover;
+    display: block;
+        }
     .information {
       display: block;
       font-size: 20px;
       margin-left: 60px;
-      .info1 {
+      .info3 {
         margin: 30px;
-        font-size: 10px;
+        font-size: 5px;
+        ul {
+          list-style: none;
+      
+          i {
+              font-size: 30px;
+             margin-left:30px;
+          } 
+            }
+          h4 {
+            font-size: 20px;
+          }
+           p{ 
+            font-size: 15px;
+          }
+               }
+      .info2 {
+        margin: 30px;
+        font-size: 5px;
+            ul {
+          list-style: none;
+      
+          i {
+              font-size: 30px;
+             margin-left:30px;
+             }
+               }
+          h4 {
+            font-size: 20px;
+          }
+           p{ 
+            font-size: 15px;
+          }
+            }
+      .info1      {
+        margin: 30px;
+        font-size: 5px;
         ul {
             list-style: none;
+        
             i {
                 font-size: 30px;
                margin-left:30px;
             }
-        }
-    }
-}
+          }
+          h4 {
+            font-size: 20px;
+          }
+            p{ 
+              font-size: 15px;
+            }     
+                    } 
+                   } 
     .sobre {
       display: block;
       width: 300px;
       h3 {
-        margin-right: 90px;
+        margin-right: 10px;
+        &:hover {
+          box-shadow: 0 0 3px 3px black;
+        }
       }
     }
     .cajatexto1 {
@@ -69,12 +133,78 @@
     .footer ul {
       font-size: 15px;
     }
-  }
     .contactanos {
         display: block;
         width: 80%;
         margin: 30px;
     }
    button {
-       font-size: 12px;
+     font-size: 12px;
    }
+              .imagen {
+                img {
+                  width: 300px;
+                }
+              }         }
+
+
+@media (min-width: 480px) and (max-width: 1366px) {
+  .fotoproducto {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+    margin-left: 50px;
+    img {
+      width: 200px;
+      height: 200px;
+       }
+    a{
+      font-size: 20px;
+      margin-left: 50px;
+       }
+    h3 {
+        font-size: 10px;
+        margin-left: 70px;
+        }
+    ul {
+        margin-left: 70px;
+        }
+      }
+      .index {
+        margin: 10px 10px 10px 150px;
+      }
+      .fotoproducto1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 0 auto;
+        margin-left: 5px;
+        img {
+          width: 200px;
+          height: 200px;
+           }
+           .a {
+            font-size: 20px;
+          margin-left: 6px;
+          margin-left: 30px;
+           }
+      
+        h3 {
+            font-size: 10px;
+            margin-left: 10px;
+            }
+          }
+     .sobre {
+            width: 800px;
+          .imagen { img 
+            {
+            width: 800px;
+            }
+                 }
+                }
+     .flexsearch {
+        display: none;
+      }
+    .information {
+      margin-left: 50px;
+    }
+}

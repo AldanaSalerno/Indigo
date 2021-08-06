@@ -1,22 +1,33 @@
 
 .sobre {
-
     margin: 0 auto;
-    width: 800px;
-    height: 600px;
-   
+    width: 1000px;
     h3 {
         color: #fff;
-        font-size: 30px;
+        font-size: 35px;
         font-family: 'stint ultra condensed', cursive;
         display: flex;
         justify-content: center;
+        margin-right: 0px;
       
     }
     p { 
         color:#fff;
-        font-size: 25px;
-        margin-left: 30px;
+        font-size: 30px;
         font-family: 'stint ultra condensed', cursive;
+    }
+}
+
+.imagen {
+    display: flex;
+    justify-content: center;
+    img {
+        display: flex;
+        justify-content: center;
+        border-radius: 30px;
+        margin-bottom: 30px;
+        &:hover { box-shadow: 0 0 6px 6px black;
+            opacity: 0.9;
+        }
     }
 }
