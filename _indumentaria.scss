@@ -7,41 +7,12 @@
     }
 }
 
-.fotoproducto {
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-gap: 1rem;
-margin: 30px;
-margin-left: 300px;
-   a {
-        color: #fff;
-        font-family: 'stint ultra condensed', cursive;  
-        font-size: 30px;
-        padding: 20px;
-        text-decoration: none;
-        text-transform: uppercase;
-        &:hover {
-          color: rgb(54, 37, 37);
-        }
-    }
-    img {
-        width:250px;
-        height: 250px;
-        margin: 10px;
-        border-radius: 20px;
-        &:hover {
-            transform: scale(1.1,1.1);
-          }
-    }
-}
-
 
 .fotoproducto1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1rem;
-  margin: 30px;
-  margin-left: 300px;
+  margin-left: 80px;
      a {
           color: #fff;
           font-family: 'stint ultra condensed', cursive;  
@@ -63,18 +34,44 @@ margin-left: 300px;
             }
       }
   }
-  
 
+  
+.fotoproducto {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  margin-left: 80px;
+     a {
+          color: #fff;
+          font-family: 'stint ultra condensed', cursive;  
+          font-size: 30px;
+          padding: 20px;
+          text-decoration: none;
+          text-transform: uppercase;
+          &:hover {
+            color: rgb(54, 37, 37);
+          }
+      }
+      img {
+          width:200px;
+          height: 200px;
+          margin: 10px;
+          border-radius: 20px;
+          &:hover {
+              transform: scale(1.1,1.1);
+            }
+      }
+  }
 .carrito {
     h3 {
       color: #fff;
-      font-size: 15px;
-      margin-left: 40px;
+      font-size: 12px;
+      margin-left: 50px;
       text-transform: uppercase;
     }
   ul {
     list-style: none;
     color: #fff;
-    margin-left: 80px;
+    margin-left: 60px;
   }
 }

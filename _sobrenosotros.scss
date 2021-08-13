@@ -1,10 +1,10 @@
 
 .sobre {
     margin: 0 auto;
-    width: 1000px;
+    width: 65%;
     h3 {
         color: #fff;
-        font-size: 35px;
+        font-size: 30px;
         font-family: 'stint ultra condensed', cursive;
         display: flex;
         justify-content: center;
@@ -13,7 +13,7 @@
     }
     p { 
         color:#fff;
-        font-size: 30px;
+        font-size: 25px;
         font-family: 'stint ultra condensed', cursive;
     }
 }
@@ -24,6 +24,7 @@
     img {
         display: flex;
         justify-content: center;
+        width: 65%;
         border-radius: 30px;
         margin-bottom: 30px;
         &:hover { box-shadow: 0 0 6px 6px black;
