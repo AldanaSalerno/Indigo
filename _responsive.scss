@@ -339,12 +339,7 @@
             
 
 @media (min-width: 480px) and (max-width: 676px) {
-  .seccionmujeres {
-    h2 {
-      display: block;
-      text-align: center;
-    }
-  }
+
   .fotoproducto {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -536,43 +531,4 @@
 }
 }
 
-@media (min-width: 1061px) and (max-width: 1224px) {
-
-    
-@media (min-width: 1224px) and (max-width: 1624px) { 
-.fotoproducto {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 1rem;
-  margin: 30px;
-  margin-left: 300px;
-     a {
-          color: #fff;
-          font-family: 'stint ultra condensed', cursive;  
-          font-size: 30px;
-          padding: 20px;
-          text-decoration: none;
-          text-transform: uppercase;
-          &:hover {
-            color: rgb(54, 37, 37);
-          }
-      }
-      img {
-          width:250px;
-          height: 250px;
-          margin: 10px;
-          border-radius: 20px;
-          &:hover {
-              transform: scale(1.1,1.1);
-            }
-      }
-  }
-  .fotoproducto_index {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    img {
-      width: 250px;
-      height: 250px;
-       }
-      } 
-    } }
+ 

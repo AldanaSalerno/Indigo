@@ -148,6 +148,11 @@ body .caja2 .caja2__subtitulo {
   margin-left: 60px;
 }
 
+.seccionmujeres h2 {
+  display: block;
+  text-align: center;
+}
+
 .contactanos {
   color: #fff;
   -webkit-box-shadow: 0 0 3px 3px #fff;
@@ -795,10 +800,6 @@ body .caja2 .caja2__subtitulo {
 }
 
 @media (min-width: 480px) and (max-width: 676px) {
-  .seccionmujeres h2 {
-    display: block;
-    text-align: center;
-  }
   .fotoproducto {
     display: -ms-grid;
     display: grid;
@@ -987,49 +988,6 @@ body .caja2 .caja2__subtitulo {
   }
   .cajatexto3 {
     width: 500px;
-  }
-}
-
-@media (min-width: 1061px) and (max-width: 1224px) and (min-width: 1224px) and (max-width: 1624px) {
-  .fotoproducto {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr;
-    gap: 1rem;
-    margin: 30px;
-    margin-left: 300px;
-  }
-  .fotoproducto a {
-    color: #fff;
-    font-family: 'stint ultra condensed', cursive;
-    font-size: 30px;
-    padding: 20px;
-    text-decoration: none;
-    text-transform: uppercase;
-  }
-  .fotoproducto a:hover {
-    color: #362525;
-  }
-  .fotoproducto img {
-    width: 250px;
-    height: 250px;
-    margin: 10px;
-    border-radius: 20px;
-  }
-  .fotoproducto img:hover {
-    -webkit-transform: scale(1.1, 1.1);
-            transform: scale(1.1, 1.1);
-  }
-  .fotoproducto_index {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr;
-  }
-  .fotoproducto_index img {
-    width: 250px;
-    height: 250px;
   }
 }
 
