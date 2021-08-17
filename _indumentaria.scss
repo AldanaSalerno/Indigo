@@ -74,13 +74,12 @@
   grid-template-columns: 1fr 1fr 1fr;
   margin: auto;
   place-items: center;
-
      a {
           color: #fff;
           font-family: 'stint ultra condensed', cursive;  
           display: block;
           margin-left: 40px;
-          font-size: 30px;
+          font-size: 28px;
           text-decoration: none;
           text-transform: uppercase;
           &:hover {
@@ -101,7 +100,7 @@
     h3 {
       color: #fff;
       font-size: 12px;
-      margin-left: 50px;
+      margin-left: 40px;
       text-transform: uppercase;
     }
   ul {

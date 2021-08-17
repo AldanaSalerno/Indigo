@@ -114,7 +114,7 @@ body .caja2 .caja2__subtitulo {
   font-family: 'stint ultra condensed', cursive;
   display: block;
   margin-left: 40px;
-  font-size: 30px;
+  font-size: 28px;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -138,7 +138,7 @@ body .caja2 .caja2__subtitulo {
 .carrito h3 {
   color: #fff;
   font-size: 12px;
-  margin-left: 50px;
+  margin-left: 40px;
   text-transform: uppercase;
 }
 
@@ -489,7 +489,7 @@ body .caja2 .caja2__subtitulo {
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
     margin: 0 auto;
-    margin-left: 10px;
+    margin-left: 2px;
   }
   .fotoproducto img {
     width: 100px;
@@ -497,14 +497,17 @@ body .caja2 .caja2__subtitulo {
   }
   .fotoproducto a {
     font-size: 20px;
-    margin-left: 16px;
+    margin-left: 20px;
   }
   .fotoproducto h3 {
     font-size: 10px;
     margin-left: 10px;
   }
   .fotoproducto ul {
-    margin-left: 30px;
+    margin-left: 20px;
+  }
+  .fotoproducto ul i {
+    font-size: 15px;
   }
   .fotoproducto1 {
     display: -ms-grid;
