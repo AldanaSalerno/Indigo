@@ -7,17 +7,23 @@
     }
 }
 
+#carouselExampleIndicators {
+  margin-bottom: 50px;
+}
+
 
 .fotoproducto1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 1rem;
-  margin-left: 80px;
+  gap: 3rem;
+  margin: auto;
      a {
           color: #fff;
-          font-family: 'stint ultra condensed', cursive;  
+          font-family: 'stint ultra condensed', cursive; 
+          display: block;
+          text-align: center;
           font-size: 30px;
-          padding: 20px;
+          padding: 10px;
           text-decoration: none;
           text-transform: uppercase;
           &:hover {
@@ -27,7 +33,6 @@
       img {
           width:250px;
           height: 250px;
-          margin: 10px;
           border-radius: 20px;
           &:hover {
               transform: scale(1.1,1.1);
@@ -35,17 +40,47 @@
       }
   }
 
+  .fotosindex {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    margin: auto;
+       a {
+            color: #fff;
+            font-family: 'stint ultra condensed', cursive; 
+            display: block;
+            text-align: center;
+            font-size: 30px;
+            padding: 10px;
+            text-decoration: none;
+            text-transform: uppercase;
+            &:hover {
+              color: rgb(54, 37, 37);
+            }
+        }
+        img {
+            width:250px;
+            height: 250px;
+            border-radius: 20px;
+            &:hover {
+                transform: scale(1.1,1.1);
+              }
+        }
+    }
+
   
 .fotoproducto {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 1rem;
-  margin-left: 80px;
+  margin: auto;
+  place-items: center;
+
      a {
           color: #fff;
           font-family: 'stint ultra condensed', cursive;  
+          display: block;
+          margin-left: 40px;
           font-size: 30px;
-          padding: 20px;
           text-decoration: none;
           text-transform: uppercase;
           &:hover {

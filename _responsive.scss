@@ -1,9 +1,350 @@
-@mixin responsive {
+
+
+@media (min-width: 360px) and (max-width: 435px) {
+  .footer {
+   h4 {
+    margin-right: 20px;
+   }
+  }
+  .fotosindex {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    margin-left: 50px;
+    img {
+      width: 100px;
+      height: 100px;
+       }
+      }
+  .fotoproducto {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin: 0 auto;
+      margin-left: 10px;
+      img {
+        width: 100px;
+        height: 100px;
+         }
+      a{
+        font-size: 20px;
+        margin-left: 16px;
+         }
+      h3 {
+          font-size: 10px;
+          margin-left: 10px;
+          }
+      ul {
+          margin-left: 30px;
+          }
+        }
+        .fotoproducto1 {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          margin: 0 auto;
+          margin-left: 5px;
+          img {
+            width: 100px;
+            height: 100px;
+             }
+             .a {
+              font-size: 20px;
+             }
+        
+          h3 {
+              font-size: 10px;
+              margin-left: 10px;
+              }
+            }
+            .sobre {
+              width: 800px;
+            .imagen { img 
+              {
+              width: 800px;
+              }
+                   }
+                  }
+                
+    body{
+       background-size: cover;
+    display: block;
+        }
+    .information {
+      display: block;
+      font-size: 10px;
+      margin-left: 60px;
+      .info3 {
+        margin: 30px;
+        font-size: 5px;
+        ul {
+          list-style: none;
+      
+          i {
+              font-size: 25px;
+             margin-left:30px;
+          } 
+            }
+          h4 {
+            font-size: 15px;
+          }
+           p{ 
+            font-size: 15px;
+          }
+               }
+      .info2 {
+        margin: 30px;
+        font-size: 5px;
+            ul {
+          list-style: none;
+      
+          i {
+              font-size: 25px;
+             margin-left:30px;
+             }
+               }
+          h4 {
+            font-size: 15px;
+          }
+           p{ 
+            font-size: 15px;
+          }
+            }
+      .info1      {
+        margin: 30px;
+        font-size: 5px;
+        ul {
+            list-style: none;
+        
+            i {
+                font-size: 25px;
+               margin-left:30px;
+            }
+          }
+          h4 {
+            font-size: 15px;
+          }
+            p{ 
+              font-size: 15px;
+            }     
+                    } 
+                   } 
+    .sobre {
+      display: block;
+      width: 300px;
+      h3 {
+        margin-right: 10px;
+        &:hover {
+          box-shadow: 0 0 3px 3px black;
+        }
+      }
+    }
+    .cajatexto1 {
+      width: 300px;
+    }
+    .cajatexto2 {
+      width: 300px;
+    }
+    .cajatexto3 {
+      width: 300px;
+    }
+    .footer h4 {
+     font-size: 15px;
+    }
+    .footer ul {
+      font-size: 15px;
+    }
+    .contactanos {
+        display: block;
+        width: 80%;
+        margin: 30px;
+    }
+   button {
+     font-size: 12px;
+   }
+              .imagen {
+                img {
+                  width: 300px;
+                }
+              }    
+          }
+
+
+          
+ @media (min-width: 427px) and (max-width: 480px) { 
+  .fotoproducto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    margin-left: 50px;
+    img {
+      width: 100px;
+      height: 100px;
+       }
+    a{
+      font-size: 20px;
+      margin-left: 6px;
+       }
+    h3 {
+        font-size: 10px;
+        margin-left: 10px;
+        }
+    ul {
+        margin-left: 30px;
+        }
+      }
+      .fotoproducto1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 0 auto;
+        margin-left: 5px;
+        img {
+          width: 100px;
+          height: 100px;
+           }
+           .a {
+            font-size: 20px;
+          margin-left: 6px;
+           }
+      
+        h3 {
+            font-size: 10px;
+            margin-left: 10px;
+            }
+          }
+          .sobre {
+            width: 800px;
+          .imagen { img 
+            {
+            width: 800px;
+            }
+                 }
+                }
+                .fotosindex {
+                  display: grid;
+                  grid-template-columns: 1fr 1fr;
+                  margin: 0 auto;
+                  margin-left: 60px;
+                  img {
+                    width: 120px;
+                    height: 120px;
+                     }
+                    }
+
+  body{
+     background-size: cover;
+  display: block;
+      }
+  .information {
+    display: block;
+    font-size: 20px;
+    margin-left: 100px;
+    .info3 {
+      margin: 30px;
+      font-size: 5px;
+      ul {
+        list-style: none;
+    
+        i {
+            font-size: 30px;
+           margin-left:30px;
+        } 
+          }
+        h4 {
+          font-size: 20px;
+        }
+         p{ 
+          font-size: 15px;
+        }
+             }
+    .info2 {
+      margin: 30px;
+      font-size: 5px;
+          ul {
+        list-style: none;
+    
+        i {
+            font-size: 30px;
+           margin-left:30px;
+           }
+             }
+        h4 {
+          font-size: 20px;
+        }
+         p{ 
+          font-size: 15px;
+        }
+          }
+    .info1      {
+      margin: 30px;
+      font-size: 5px;
+      ul {
+          list-style: none;
+      
+          i {
+              font-size: 30px;
+             margin-left:30px;
+          }
+        }
+        h4 {
+          font-size: 20px;
+        }
+          p{ 
+            font-size: 15px;
+          }     
+                  } 
+                 } 
+  .sobre {
+    display: block;
+    width: 300px;
+    h3 {
+      margin-right: 10px;
+      &:hover {
+        box-shadow: 0 0 3px 3px black;
+      }
+    }
+  }
+  .cajatexto1 {
+    width: 300px;
+  }
+  .cajatexto2 {
+    width: 300px;
+  }
+  .cajatexto3 {
+    width: 300px;
+  }
+  .footer h4 {
+   font-size: 15px;
+  }
+  .footer ul {
+    font-size: 15px;
+  }
+  .contactanos {
+      display: block;
+      width: 80%;
+      margin: 30px;
+  }
+ button {
+   font-size: 12px;
+ }
+            .imagen {
+              img {
+                width: 300px;
+              }
+            }    
+        }
+
+            
+
+@media (min-width: 480px) and (max-width: 676px) {
+  .seccionmujeres {
+    h2 {
+      display: block;
+      text-align: center;
+    }
+  }
   .fotoproducto {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 0 auto;
-    margin-left: 5px;
     img {
       width: 200px;
       height: 200px;
@@ -11,7 +352,7 @@
        a {
         color: #fff;
         font-family: 'stint ultra condensed', cursive;  
-        font-size: 10px;
+        font-size: 22px;
         padding: 20px;
         text-decoration: none;
         text-transform: uppercase;
@@ -22,7 +363,7 @@
   
     h3 {
         font-size: 10px;
-        margin-left: 10px;
+        margin-left: 50px;
         }
       }
       .fotoproducto1 {
@@ -39,23 +380,28 @@
           text-transform: uppercase;
           &:hover {
             color: rgb(54, 37, 37);
-          } 
             font-size: 20px;
           margin-left: 6px;
           margin-left: 30px;
            }
-      
+          }
         h3 {
             font-size: 10px;
             margin-left: 10px;
             }
           }
-     .flexsearch {
-        display: none;
-      }
+          .fotosindex {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            img {
+              width: 180px;
+              height: 180px;
+               }
+              } 
+  
     .information {
       font-size: 20px;
-      margin-left: 60px;
+      margin-left: 50px;
       .info3 {
         margin: 30px;
         font-size: 5px;
@@ -127,401 +473,6 @@
      font-size: 12px;
    }
             
-          }
-
-@media (min-width: 360px) and (max-width: 435px) {
-  .fotoproductoindex {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 0 auto;
-    margin-left: 50px;
-    img {
-      width: 200px;
-      height: 200px;
-       }
-    a{
-      font-size: 20px;
-      margin-left: 50px;
-       }
-    h3 {
-        font-size: 10px;
-        margin-left: 70px;
-        }
-    ul {
-        margin-left: 70px;
-        }
-      }
-      .index {
-        margin: 10px 10px 10px 50px;
-      }  
-  .fotoproducto {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      margin: 0 auto;
-      margin-left: 50px;
-      img {
-        width: 100px;
-        height: 100px;
-         }
-      a{
-        font-size: 20px;
-        margin-left: 6px;
-         }
-      h3 {
-          font-size: 10px;
-          margin-left: 10px;
-          }
-      ul {
-          margin-left: 30px;
-          }
-        }
-        .fotoproducto1 {
-          display: grid;
-          grid-template-columns: 1fr 1fr;
-          margin: 0 auto;
-          margin-left: 5px;
-          img {
-            width: 100px;
-            height: 100px;
-             }
-             .a {
-              font-size: 20px;
-            margin-left: 6px;
-            margin-left: 30px;
-             }
-        
-          h3 {
-              font-size: 10px;
-              margin-left: 10px;
-              }
-            }
-            .sobre {
-              width: 800px;
-            .imagen { img 
-              {
-              width: 800px;
-              }
-                   }
-                  }
-    .flexsearch {
-      display:none;
-                }
-    body{
-       background-size: cover;
-    display: block;
-        }
-    .information {
-      display: block;
-      font-size: 20px;
-      margin-left: 60px;
-      .info3 {
-        margin: 30px;
-        font-size: 5px;
-        ul {
-          list-style: none;
-      
-          i {
-              font-size: 30px;
-             margin-left:30px;
-          } 
-            }
-          h4 {
-            font-size: 20px;
-          }
-           p{ 
-            font-size: 15px;
-          }
-               }
-      .info2 {
-        margin: 30px;
-        font-size: 5px;
-            ul {
-          list-style: none;
-      
-          i {
-              font-size: 30px;
-             margin-left:30px;
-             }
-               }
-          h4 {
-            font-size: 20px;
-          }
-           p{ 
-            font-size: 15px;
-          }
-            }
-      .info1      {
-        margin: 30px;
-        font-size: 5px;
-        ul {
-            list-style: none;
-        
-            i {
-                font-size: 30px;
-               margin-left:30px;
-            }
-          }
-          h4 {
-            font-size: 20px;
-          }
-            p{ 
-              font-size: 15px;
-            }     
-                    } 
-                   } 
-    .sobre {
-      display: block;
-      width: 300px;
-      h3 {
-        margin-right: 10px;
-        &:hover {
-          box-shadow: 0 0 3px 3px black;
-        }
-      }
-    }
-    .cajatexto1 {
-      width: 300px;
-    }
-    .cajatexto2 {
-      width: 300px;
-    }
-    .cajatexto3 {
-      width: 300px;
-    }
-    .footer h4 {
-     font-size: 15px;
-    }
-    .footer ul {
-      font-size: 15px;
-    }
-    .contactanos {
-        display: block;
-        width: 80%;
-        margin: 30px;
-    }
-   button {
-     font-size: 12px;
-   }
-              .imagen {
-                img {
-                  width: 300px;
-                }
-              }    
-          }
-
-
-@media (min-width: 360px) and (max-width: 435px) {
-  .fotoproductoindex {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 0 auto;
-    margin-left: 50px;
-    img {
-      width: 200px;
-      height: 200px;
-       }
-    a{
-      font-size: 20px;
-      margin-left: 50px;
-       }
-    h3 {
-        font-size: 10px;
-        margin-left: 70px;
-        }
-    ul {
-        margin-left: 70px;
-        }
-      }
-      .index {
-        margin: 10px 10px 10px 50px;
-      }  
-  .fotoproducto {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      margin: 0 auto;
-      margin-left: 50px;
-      img {
-        width: 100px;
-        height: 100px;
-         }
-      a{
-        font-size: 20px;
-        margin-left: 6px;
-         }
-      h3 {
-          font-size: 10px;
-          margin-left: 10px;
-          }
-      ul {
-          margin-left: 30px;
-          }
-        }
-        .fotoproducto1 {
-          display: grid;
-          grid-template-columns: 1fr 1fr;
-          margin: 0 auto;
-          margin-left: 5px;
-          img {
-            width: 100px;
-            height: 100px;
-             }
-             .a {
-              font-size: 20px;
-            margin-left: 6px;
-            margin-left: 30px;
-             }
-        
-          h3 {
-              font-size: 10px;
-              margin-left: 10px;
-              }
-            }
-            .sobre {
-              width: 800px;
-            .imagen { img 
-              {
-              width: 800px;
-              }
-                   }
-                  }
-    .flexsearch {
-      display:none;
-                }
-    body{
-       background-size: cover;
-    display: block;
-        }
-    .information {
-      display: block;
-      font-size: 20px;
-      margin-left: 60px;
-      .info3 {
-        margin: 30px;
-        font-size: 5px;
-        ul {
-          list-style: none;
-      
-          i {
-              font-size: 30px;
-             margin-left:30px;
-          } 
-            }
-          h4 {
-            font-size: 20px;
-          }
-           p{ 
-            font-size: 15px;
-          }
-               }
-      .info2 {
-        margin: 30px;
-        font-size: 5px;
-            ul {
-          list-style: none;
-      
-          i {
-              font-size: 30px;
-             margin-left:30px;
-             }
-               }
-          h4 {
-            font-size: 20px;
-          }
-           p{ 
-            font-size: 15px;
-          }
-            }
-      .info1      {
-        margin: 30px;
-        font-size: 5px;
-        ul {
-            list-style: none;
-        
-            i {
-                font-size: 30px;
-               margin-left:30px;
-            }
-          }
-          h4 {
-            font-size: 20px;
-          }
-            p{ 
-              font-size: 15px;
-            }     
-                    } 
-                   } 
-    .sobre {
-      display: block;
-      width: 300px;
-      h3 {
-        margin-right: 10px;
-        &:hover {
-          box-shadow: 0 0 3px 3px black;
-        }
-      }
-    }
-    .cajatexto1 {
-      width: 300px;
-    }
-    .cajatexto2 {
-      width: 300px;
-    }
-    .cajatexto3 {
-      width: 300px;
-    }
-    .footer h4 {
-     font-size: 15px;
-    }
-    .footer ul {
-      font-size: 15px;
-    }
-    .contactanos {
-        display: block;
-        width: 80%;
-        margin: 30px;
-    }
-   button {
-     font-size: 12px;
-   }
-              .imagen {
-                img {
-                  width: 300px;
-                }
-              }    
-          }
- @media (min-width: 427px) and (max-width: 480px) { 
-          @include responsive;
-          .contactanos {
-            margin: 30px;
-          }
-          .sobre {
-            display: block;
-            width: 300px;
-            h3 {
-              margin-right: 10px;
-              &:hover {
-                box-shadow: 0 0 3px 3px black;
-              }
-            }
-          }
-          .imagen {
-            img {
-              width: 300px;
-            }
-          }  
-          .cajatexto1 {
-            width: 300px;
-          }
-          .cajatexto2 {
-            width: 300px;
-          }
-          .cajatexto3 {
-            width: 300px;
-          }
-      }
-
-@media (min-width: 480px) and (max-width: 676px) {
- @include responsive;
  .contactanos {
    margin: 30px
  }
@@ -552,8 +503,16 @@
 }
 
 @media (min-width: 676px) and (max-width: 1061px) {
-@include responsive;
-.contactanos {
+  .fotosindex {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    img {
+      width: 200px;
+      height: 200px;
+       }
+      } 
+   
+  .contactanos {
   margin: 20px 20px 20px 20px 0 auto;
  }
 .sobre {
@@ -573,8 +532,10 @@
 }
 }
 
-@media (min-width: 1224px) and (max-width: 1624px) {
-  
+@media (min-width: 1061px) and (max-width: 1224px) {
+
+    
+@media (min-width: 1224px) and (max-width: 1624px) { 
 .fotoproducto {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -602,5 +563,12 @@
             }
       }
   }
-  
-}
+  .fotoproducto_index {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    img {
+      width: 250px;
+      height: 250px;
+       }
+      } 
+    } }
